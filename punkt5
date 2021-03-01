@@ -1,0 +1,55 @@
+//podpunkt 5
+
+Microsoft Windows [Version 10.0.19041.804]
+(c) 2020 Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+C:\Users\murlok>cd C:\Users\murlok\IdeaProjects\untitled\src
+
+C:\Users\murlok\IdeaProjects\untitled\src>javac pl\lublin\wsei\java\cwiczenia\Main.java
+
+C:\Users\murlok\IdeaProjects\untitled\src>dir pl\lublin\wsei\java\cwiczenia\Main.class
+ Volume in drive C has no label.
+ Volume Serial Number is 0C3E-561E
+
+ Directory of C:\Users\murlok\IdeaProjects\untitled\src\pl\lublin\wsei\java\cwiczenia
+
+01.03.2021  19:42               449 Main.class
+               1 File(s)            449 bytes
+               0 Dir(s)  114 625 593 344 bytes free
+
+C:\Users\murlok\IdeaProjects\untitled\src>java pl.lublin.wsei.java.cwiczenia.Main
+Hello Java world
+
+
+C:\Users\murlok\IdeaProjects\untitled\src> java Main.class
+Error: Could not find or load main class Main.class
+Caused by: java.lang.ClassNotFoundException: Main.class
+
+C:\Users\murlok\IdeaProjects\untitled\src> java Main
+Error: Could not find or load main class Main
+Caused by: java.lang.ClassNotFoundException: Main
+
+C:\Users\murlok\IdeaProjects\untitled\src>java -
+Unrecognized option: -
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+C:\Users\murlok\IdeaProjects\untitled\src>classpath . Main
+'classpath' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\murlok\IdeaProjects\untitled\src>ren
+The syntax of the command is incorrect.
+
+C:\Users\murlok\IdeaProjects\untitled\src>ren pl\lublin\wsei\java\cwiczenia\Main.java Inny.Java
+
+C:\Users\murlok\IdeaProjects\untitled\src>javac pl\lublin\wsei\java\cwiczenia\Inny.java
+pl\lublin\wsei\java\cwiczenia\Inny.java:3: error: class Main is public, should be declared in a file named Main.java
+public class Main {
+       ^
+1 error
+
+C:\Users\murlok\IdeaProjects\untitled\src>ren pl\lublin\wsei\java\cwiczenia\Inny.java Main.java
+
+C:\Users\murlok\IdeaProjects\untitled\src>
+
